@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Osiris 1.0.0",
+        "description": "説明",
+        "uuid": "e3928e30-6c0a-43d7-8330-e2c36e85541e ",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 20, 60 ]
+    },
+    "modules": [
+        {
+            "description": "data",
+            "type": "data",
+            "uuid": "a70bdd2a-0610-4ce2-8017-b86079bc30a4",
+            "version": [1, 0, 0]
+        },
+        {
+            "description": "",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "84953ad3-ca10-4fc3-9143-c49ee7c8fac87",
+            "entry": "scripts/main.js",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0"
+        },
+        {
+          "module_name": "@minecraft/server-ui",
+          "version": "1.2.0"
+      }
+    ]
+  }
