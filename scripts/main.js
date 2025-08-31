@@ -6,7 +6,7 @@ world.afterEvents.playerSpawn.subscribe(ev => {
         world.sendMessage('この先の道は苦難が伴うだろう...')
     
         world.setDynamicProperty('iniMessage',true);
-        world.getAllPlayers()[0].runCommand(`gamerule naturalRegeneration true/false`)
+        world.getAllPlayers()[0].runCommand(`gamerule naturalRegeneration false`)
     }
 })
 
