@@ -3,7 +3,7 @@
     "header": {
         "name": "Osiris 1.0.0",
         "description": "説明",
-        "uuid": "e3928e30-6c0a-43d7-8330-e2c36e85541e ",
+        "uuid": "908e4e2a-751c-46da-8075-926d86aa7ea2",
         "version": [ 1, 0, 0 ],
         "min_engine_version": [ 1, 20, 60 ]
     },
@@ -18,7 +18,7 @@
             "description": "",
             "type": "script",
             "language": "javascript",
-            "uuid": "84953ad3-ca10-4fc3-9143-c49ee7c8fac87",
+            "uuid": "6c2b1345-2b3b-421e-bc92-3f6eee7af139",
             "entry": "scripts/main.js",
             "version": [ 1, 0, 0 ]
         }
