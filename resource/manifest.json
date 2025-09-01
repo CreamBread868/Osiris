@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Osiris 1.0.0-resource",
+        "name": "Osiris 1.0.0",
+        "uuid": "46ac6f8c-410a-4ea1-afd9-bbb3383644d8",
+        "version": [1, 0, 0],
+        "min_engine_version": [ 1, 20, 60 ]
+    },
+    "modules": [
+        {
+            "description": "data",
+            "type": "resources",
+            "uuid": "1c14b599-1386-4dff-971d-1b0e60391050",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid":"908e4e2a-751c-46da-8075-926d86aa7ea2",
+            "version":[1,0,0]
+        }
+    ]
+}
