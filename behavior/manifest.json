@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "name": "Osiris 1.0.0",
-        "description": "説明",
+        "description": "Osiris 1.0.0-behavior",
         "uuid": "908e4e2a-751c-46da-8075-926d86aa7ea2",
         "version": [ 1, 0, 0 ],
         "min_engine_version": [ 1, 20, 60 ]
@@ -31,6 +31,10 @@
         {
           "module_name": "@minecraft/server-ui",
           "version": "2.0.0"
-      }
+      },
+      {
+            "uuid":"46ac6f8c-410a-4ea1-afd9-bbb3383644d8",
+            "version":[1,0,0]
+        }
     ]
   }
