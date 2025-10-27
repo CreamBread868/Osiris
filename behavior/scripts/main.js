@@ -20,7 +20,6 @@ system.runInterval(()=>
          sleepBool.set(player.id,true)
          if(!sleepTime.has(player.id)) sleepTime.set(player.id,0);
          sleepTime.set(player.id,sleepTime.get(player.id)+1)
-         world.sendMessage(`${sleepTime.get(player.id)}`)
 
         }
         else
